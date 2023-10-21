@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestScripts" >
+
+	<test name="TC001_AddToCart" enabled="false">
+		<classes>
+			<class name="sauceDemo.TC001_AddToCart" />
+		</classes>
+	</test>
+
+	<test name="TC002_AddRemCart" enabled="false">
+		<classes>
+			<class name="sauceDemo.TC002_AddRemCart" />
+		</classes>
+	</test>
+
+	<test name="TC003_AddRemv" enabled="false">
+	
+		<classes>
+			<class name="sauceDemo.TC003_AddRemv" />
+		</classes>
+	</test>
+	
+	<test name="TC004_Parameter_C" enabled="false">
+	<parameter name="Brow" value="chrome"></parameter>
+		<classes>
+			<class name="sauceDemo.TC004_Parameter" />
+		</classes>
+	</test>
+
+	<test name="TC004_Parameter_F" enabled="false">
+	<parameter name="Brow" value="firefox"></parameter>
+		<classes>
+			<class name="sauceDemo.TC004_Parameter" />
+		</classes>
+	</test>
+	
+	<test name="TC004_Parameter_E" enabled="false">
+	<parameter name="Brow" value="edge"></parameter>
+		<classes>
+			<class name="sauceDemo.TC004_Parameter" />
+		</classes>
+	</test>
+
+	<test name="TestRunner" enabled="false">
+	<parameter name="Brow" value="edge"></parameter>
+		<classes>
+			<class name="cucumberFiles.TestRunner3" />
+		</classes>
+	</test>
+	
+	<test name="TempFile" >
+	<parameter name="Brow" value="chrome"></parameter>
+		<classes>
+			<class name="core.TempFile" />
+		</classes>
+	</test>
+	
+</suite>

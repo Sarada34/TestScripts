@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestScripts]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TempFile(failed)">
+    <parameter name="Brow" value="chrome"/>
+    <classes>
+      <class name="core.TempFile">
+        <methods>
+          <include name="addToCart"/>
+          <include name="openBrower"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- core.TempFile -->
+    </classes>
+  </test> <!-- TempFile(failed) -->
+</suite> <!-- Failed suite [TestScripts] -->
