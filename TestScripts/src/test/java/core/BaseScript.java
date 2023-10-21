@@ -26,7 +26,7 @@ public class BaseScript {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			break;
+			
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
